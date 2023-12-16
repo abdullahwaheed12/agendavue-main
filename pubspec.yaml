@@ -1,0 +1,61 @@
+name: agendavue
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  cupertino_icons: ^1.0.5
+  connectivity_plus: ^4.0.1
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.7
+  text_form_field_wrapper: ^1.0.0
+  roundcheckbox: ^2.0.5
+  rive: ^0.11.4
+  loading_animation_widget: ^1.2.0+2
+  marquee: ^2.2.3
+  marquee_vertical: ^1.0.0
+  expansion_tile_card: ^3.0.0
+  google_fonts: ^4.0.4
+  bottom_navy_bar: ^6.0.0
+  searchable_listview: ^2.0.1
+  dropdown_button2: ^1.9.4
+  flutter_swipe_action_cell: ^3.0.4
+  flutter_advanced_switch: ^3.0.1
+  url_launcher: ^6.1.6
+  percent_indicator: ^4.2.2
+  get_storage: ^2.0.3
+  html_unescape: ^2.0.0
+  dio: ^5.2.1+1
+  http: ^0.13.5
+  fluttertoast: ^8.1.1
+  add_2_calendar: ^2.1.3
+  intl: ^0.18.1
+  pull_to_refresh: ^2.0.0
+
+  modal_progress_hud_nsn: ^0.4.0
+  string_similarity: ^2.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/course/
+    - assets/images/icons/
+  fonts:
+    - family: Roboto Slab
+      fonts:
+        - asset: assets/fonts/RobotoSlabBold.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/MontserratRegular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsBold.ttf
+        - asset: assets/fonts/PoppinsRegular.ttf
